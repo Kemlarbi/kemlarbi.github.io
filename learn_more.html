@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Portfolio Website || Learn more</title>
+    <link rel="stylesheet" href="learn_more.css">
+    <script src="https://kit.fontawesome.com/d4d6474fd0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+              <a href="index.html"><img src="Images/kemgraphics logo.png" class="logo"></a>
+                <ul id="sidemenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="learn_more.html">Services</a></li>
+                    <li><a href="index.html#portfolio">Portfolio</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                    <i class=" fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class=" fas fa-solid fa-bars" onclick="openmenu()"></i>
+                
+            </nav>
+        </div>
+    </div>
+
+    <div id="services">
+        <h1 class="sub-title">My Services</h1>
+        <div class="container">
+            
+            <div class="row">
+                <div class="services-col-1">
+                    <img src="Images/sd.jpg">
+                </div>
+                <div class="services-col-2">
+                    <div>
+                    <h2 class="sub-title2">Software Development</h2>
+                    <ul><li>Custom software development<br>
+                        - Creating tailor-made software solutions that address your specific business needs. From initial concept to final deployment, our team works closely with you to design, develop, and implement software that streamlines your processes and boosts productivity.
+                        </li>
+                        <li>Expertise in Diverse Technologies<br>
+                        -  Proficient in a wide range of programming languages, frameworks, and tools. Whether it's Java, Python, C#, or JavaScript, I have the skills to develop robust and scalable software solutions using the latest technologies.
+                        </li>
+
+                        <li>User-Centric Design<br>
+                        - User experience is at the forefront of the software development process. I design with the end-user in mind, creating intuitive interfaces and smooth interactions that enhance usability and drive engagement. The user-centric approach ensures that your software not only meets technical specifications but also delights users.
+                        </li>
+                    </ul></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            
+            <div class="row">
+                <div class="services-col-1">
+                    <img src="Images/web.jpg">
+                </div>
+                <div class="services-col-2">
+                    <div>
+                    <h2 class="sub-title2">Web Development</h2>
+                    <ul><li>Custom Website development<br>
+                        - Creating custom websites tailored to meet the unique needs and requirements of our clients. I work closely with clients to understand their goals and deliver a website that aligns with their brand and objectives.
+                        </li>
+                        <li>Responsive Web Design<br>
+                        - I ensure that all websites developed are responsive, meaning they adopt and display correctly on various devices and screens sizes. This ensures a seamless user expperience across desktops, tablets, and mobile phones.
+                        </li>
+
+                        <li>Content Management Systems<br>
+                        - I work with popular CMS platforms like Wordpress, Joomla and Drupalto create websites that are easy to manage and update. Clientshave the flexibility to add, edit, and delete content without needing technical expertise.
+                        </li>
+                    </ul></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <div class="row">
+                <div class="services-col-1">
+                    <img src="Images/app.jpg">
+                </div>
+                <div class="services-col-2">
+                    <div>
+                    <h2 class="sub-title2">App Development</h2>
+                    <ul><li>IOS APP development<br>
+                        - Creating custom ios applications for Iphones, Ipads and other apple devices. Apple's guidelines and best practices are followed to deliver high-quality, user-friendly apps that meet the unique requirements of our clients.
+                        </li>
+                        <li>Android App development<br>
+                        - Creating custom Android applications for mobile phones, tablets and other devices. I use technologies like Java and Kotlin to build robust and scalable apps that works seamlessly across variuos Andriod devices.
+                        </li>
+
+                        <li>Cross-platform App development<br>
+                        - For clients looking to reach a wider audience with a single codebase, I use frameworks like React Native, Flutter, Xamarin, and others. This approach allows for the development of apps that run on both IOS and Android platforms with reduced development time and cost.
+                        </li>
+                    </ul></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright Kemlarbi. Made with <i class="fa-solid fa-heart"></i> by KemGraphics</p>
+    </div>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right ="0";
+        }
+        function closemenu(){
+            sidemenu.style.right ="-200px";
+        }
+
+    </script>
+            
+    
+</body>
+</html>
